@@ -1,54 +1,16 @@
 {
-  "de": [
-    {
-      "heading": "Praktikum bei Google",
-      "subheading": "Kalifornien, USA",
-      "date": "2018",
-      "content": "Hier können Sie ihre beruflichen Erfahrungen beschreiben. Das können Anstellungen, aber auch Projekte oder Weiterbildungen sein."
-    },
-    {
-      "heading": "ISS Besuch",
-      "subheading": "Internationaler Weltraum",
-      "date": "01/2019 – 06/2019",
-      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-    },
-    {
-      "heading": "Bundeskanzler",
-      "subheading": "Berlin, DE",
-      "date": "10/2019 – 10/2023",
-      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-    },
-    {
-      "heading": "US Präsident",
-      "subheading": "Washington, DC",
-      "date": "11/2023 – jetzt",
-      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-    }
-  ],
   "en": [
     {
-      "heading": "Google Internship",
-      "subheading": "California, US",
-      "date": "2018",
-      "content": "Here you can describe your professional experience. This can be employment, but also projects or further training."
+      "heading": "Олимпиада DANO",
+      "subheading": "Москва, Российская федерация",
+      "date": "2023, 2024",
+      "content": "Оба года был капитаном и разработчиком на олимпиаде DANO. За оба раза участия познакомился с большим количеством интересных людей, узнал много новых технологий для анализа данных, к сожалению не став победителем или призёром "
     },
     {
-      "heading": "ISS Visit",
-      "subheading": "International Space",
-      "date": "01/2019 – 06/2019",
-      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-    },
-    {
-      "heading": "Chancellor of Germany",
-      "subheading": "Berlin, DE",
-      "date": "10/2019 – 10/2023",
-      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-    },
-    {
-      "heading": "US President",
-      "subheading": "Washington, DC",
-      "date": "11/2023 – now",
-      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+      "heading": "Колмогоровские чтения",
+      "subheading": "Междунароная конференция",
+      "date": "2024",
+      "content": "За свой проект получил 2ое место в секции 'Информатика и мат моделирование'"
     }
   ]
 }
