@@ -1,0 +1,48 @@
+name: Release
+on:
+  repository_dispatch:
+    types: [release]
+
+jobs:
+  release:
+    name: Release new version
+    runs-on: ubuntu-latest
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the added or changed files to the repository.
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          submodules: true
+          token: ${{ secrets.PAT }}
+      - name: Git Submodule Update
+        run: |
+          git pull --recurse-submodules
+          git submodule update --remote --recursive
+      - name: Commit updated submodule
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update core to ${{ github.event.client_payload.version }}
+          token: ${{ secrets.PAT }}
+
+      - uses: actions/setup-node@v4
+        with:
+          # Version Spec of the version to use in SemVer notation.
+          # It also emits such aliases as lts, latest, nightly and canary builds
+          # Examples: 12.x, 10.15.1, >=10.15.0, lts/Hydrogen, 16-nightly, latest, node
+          node-version: 20
+      - name: Build All-in-one HTML
+        run: |
+          cd core
+          npm install
+          npm run build-single-file
+          cd single-dist
+          mv index.html CV.html
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.event.client_payload.version }}
+          files: core/single-dist/CV.html
