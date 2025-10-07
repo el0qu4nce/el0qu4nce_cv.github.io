@@ -1,37 +1,21 @@
 {
-  "languages": ["de", "en"],
+  "languages": ["en"],
   "defaultLanguage": "en",
   "showAboutWebsite": true,
-  "de": {
-    "id": "de",
-    "name": "Deutsch",
-    "isoAlpha2": "de",
-    "heading": "WebCVTemplate",
-    "subheading": "Unkomplizierte CV Vorlage",
-    "showMore": "Mehr anzeigen",
-    "showLess": "Weniger anzeigen",
-
-    "home": "Home",
-    "education": "Bildungsweg",
-    "experience": "Erfahrung",
-    "skills": "Kenntnisse",
-    "about": "Über",
-    "contact": "Kontakt"
-  },
   "en": {
     "id": "en",
     "name": "English",
     "isoAlpha2": "us",
-    "heading": "WebCVTemplate",
-    "subheading": "Easy to use CV Template",
-    "showMore": "Show more",
-    "showLess": "Show less",
+    "heading": "Voziakov Viacheslav",
+    "subheading": "HSE Student, пытающийся ботать",
+    "showMore": "Больше>",
+    "showLess": "Меньше<",
 
     "home": "Home",
-    "education": "Education",
-    "experience": "Experience",
-    "skills": "Skills",
-    "about": "About",
-    "contact": "Contact"
+    "education": "Образование",
+    "experience": "Опыт",
+    "skills": "Навыки",
+    "about": "О мне",
+    "contact": "контактики"
   }
 }
