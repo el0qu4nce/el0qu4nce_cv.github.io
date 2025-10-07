@@ -1,0 +1,17 @@
+:host {
+  width: 100%;
+  @container (min-width: 1000px) {
+    width: max(1000px, 80%)
+  }
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  :nth-child(2n) {
+    --flex-row: row-reverse;
+    --title-align: left;
+  }
+  :nth-child(2n+1) {
+    --flex-row: row;
+    --title-align: right;
+  }
+}

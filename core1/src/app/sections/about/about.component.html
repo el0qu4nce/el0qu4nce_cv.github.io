@@ -1,0 +1,6 @@
+<about-card *ngFor="let about of dataService.about" [content]="about" class="alarm-clock-animated"></about-card>
+<about-card *ngIf="dataService.showAboutWebsite" class="alarm-clock-animated" [content]="langService.lang === 'de' ? aboutWebsiteCardDe : aboutWebsiteCardEn">
+  <div style="margin-top: 3rem; display: flex; justify-content: space-between; align-items: flex-end">
+    <!-- TODO: replace app name with app icon -->
+  </div>
+</about-card>

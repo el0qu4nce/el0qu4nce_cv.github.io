@@ -1,0 +1,43 @@
+.pdf-viewer {
+  height: 100vh;
+  width: 100vw;
+
+  p {
+    padding: 1em;
+  }
+}
+
+//.pdf-viewer {
+//  height:100vh;
+//  width:100vw;
+//}
+
+// Toast styling
+:host::ng-deep {
+  .mobile-not-supported-toast {
+    $font-size: 0.6rem;
+    color: #262626;
+    border: solid #262626;
+    border-width: 0 0 0 3px;
+    font-size: $font-size;
+
+    .p-toast-message-icon {
+      font-size: $font-size;
+      infocircleicon {
+        color: #262626;
+        svg {
+          width: calc($font-size * 2);
+          height: calc($font-size * 2);
+        }
+      }
+    }
+
+    .p-toast-icon-close {
+      width: calc($font-size * 2);
+      height: calc($font-size * 2);
+      timesicon {
+        color: #262626;
+      }
+    }
+  }
+}
