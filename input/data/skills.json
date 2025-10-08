@@ -44,6 +44,12 @@
           "name": "C++",
           "rating": 25,
           "text": ""
+        },
+        {
+          "id": "c++",
+          "name": "Go",
+          "rating": 10,
+          "text": ""
         }
       ]
     },
@@ -63,6 +69,12 @@
           "id": "js",
           "name": "JavaScript",
           "rating": 25,
+          "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+        },
+        {
+          "id": "js",
+          "name": "TypeScript",
+          "rating": 10,
           "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
         }
       ]
